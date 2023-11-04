@@ -1,7 +1,7 @@
 # CRUD-Application
 CRUD is based on Create, Read, Update, Delete Application
 
-#Installation
+# Installation
 
 Guide users on how to install and set up your application. Include step-by-step instructions for different operating systems or environments. This can include:
 1. Clone the repository:
@@ -18,7 +18,7 @@ Guide users on how to install and set up your application. Include step-by-step 
 
    npm start
    
-#Usage 
+# Usage 
 
 Explain how to use your CRUD application. Provide examples of common use cases and any special instructions. This can include:
 
@@ -30,7 +30,7 @@ Explain how to use your CRUD application. Provide examples of common use cases a
 
 4.How to perform CRUD operations. 
 
-#License 
+# License 
 
 Specify the license under which your application is released. This can be open-source licenses like MIT, Apache, or GPLv3, or a proprietary license if you choose to restrict usage.
 
