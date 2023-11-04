@@ -1,0 +1,38 @@
+{{>header}}    
+    <title>All Record</title>
+{{>navbar}}
+<div class="container">
+    <h5 class="bg-success text-light text-center mt-2 p-2">CRUD Application<a href="/add"><span class="material-symbols-outlined">add</span></a></h5>
+    <div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Salary</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Designation</th>
+            <th>City</th>
+            <th></th>
+            <th></th>
+        </tr>
+        {{#each data}}
+        <tr>
+            <td>{{_id}}</td>
+            <td>{{name}}</td>
+            <td>{{age}}</td>
+            <td>{{salary}}</td>
+            <td>{{email}}</td>
+            <td>{{phone}}</td>
+            <td>{{desig}}</td>
+            <td>{{city}}</td>
+            <td><a href='/update/{{_id}}'><span class="material-symbols-outlined">edit</span></a></td>
+            <td><a href='/delete/{{_id}}'><span class="material-symbols-outlined">delete_forever</span></a></td>
+
+        </tr>
+        {{/each}}
+    </table>
+    </div>
+</div>
+{{>footer}}

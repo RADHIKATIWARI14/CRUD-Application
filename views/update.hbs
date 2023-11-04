@@ -1,0 +1,50 @@
+{{>header}}
+<title>Update Record CodeSquadz</title>
+{{>navbar}}
+<div class="container">
+    <h5 class="bg-success text-light text-center mt-2 p-2">CRUD Application</h5>
+    <form class="mytable" action="/update/{{data._id}}" method="post">
+        <div class="row">
+        <div class="mb-3 col-md-6 col-12">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" name="name" value="{{data.name}}" />
+        </div>
+        </div>
+        <div class="row">
+        <div class="mb-3 col-md-6 col-12">
+            <label class="form-label">Age</label>
+            <input type="number" class="form-control" name="age" value="{{data.age}}" />
+        </div>
+        <div class="mb-3 col-md-6 col-12">
+            <label class="form-label">Salary</label>
+            <input type="number" class="form-control" name="salary" value="{{data.salary}}" />
+        </div>
+        </div>
+        <div class="row">
+        <div class="mb-3  col-md-6 col-12">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-control" name="email" value="{{data.email}}"/>
+            
+        </div>
+        
+        <div class="mb-3 col-md-6 col-12">
+            <label class="form-label">Mobile No</label>
+            <input type="text" class="form-control" name="phone" value="{{data.phone}}" />
+        </div>
+        </div>
+        <div class="row">
+        <div class="mb-3 col-md-6 col-12">
+            <label class="form-label">Designation</label>
+            <input type="text" class="form-control" name="desig" value="{{data.desig}}" />
+        </div>
+        <div class="mb-3 col-md-6 col-12">
+            <label class="form-label">City</label>
+            <input type="text" class="form-control" name="city" value="{{data.city}}" />
+        </div>
+        </div>
+        <button type="submit" class="btn btn-success w-100">Submit</button>
+    </form>
+
+
+</div>
+{{>footer}}

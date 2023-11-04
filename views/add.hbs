@@ -1,0 +1,50 @@
+{{>header}}
+<title>Add Record CodeSquadz</title>
+{{>navbar}}
+<div class="container">
+    <h5 class="bg-primary text-light text-center mt-2 p-2">CRUD Application</h5>
+    <form class="mytable" action="/add" method="post">
+        <div class="row">
+        <div class="mb-3 col-md-6 col-12">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" name="name" placeholder="Enter Name Here" />
+        </div>
+        </div>
+        <div class="row">
+        <div class="mb-3 col-md-6 col-12">
+            <label class="form-label">Age</label>
+            <input type="number" class="form-control" name="age" placeholder="Enter Age" />
+        </div>
+        <div class="mb-3 col-md-6 col-12">
+            <label class="form-label">Salary</label>
+            <input type="number" class="form-control" name="salary" placeholder="Enter Salary" />
+        </div>
+        </div>
+        <div class="row">
+        <div class="mb-3  col-md-6 col-12">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-control" name="email" placeholder="Enter Email"/>
+            
+        </div>
+        
+        <div class="mb-3 col-md-6 col-12">
+            <label class="form-label">Mobile No</label>
+            <input type="text" class="form-control" name="phone" placeholder="Enter Mobile No" />
+        </div>
+        </div>
+        <div class="row">
+        <div class="mb-3 col-md-6 col-12">
+            <label class="form-label">Designation</label>
+            <input type="text" class="form-control" name="desig" placeholder="Enter Designation" />
+        </div>
+        <div class="mb-3 col-md-6 col-12">
+            <label class="form-label">City</label>
+            <input type="text" class="form-control" name="city" placeholder="Enter City Name" />
+        </div>
+        </div>
+        <button type="submit" class="btn btn-priamry w-100">Submit</button>
+    </form>
+
+
+</div>
+{{>footer}}

@@ -1,0 +1,9 @@
+.mytable{
+    height: 390px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.icone
+{
+    color: white;
+}
