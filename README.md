@@ -17,6 +17,9 @@ Guide users on how to install and set up your application. Include step-by-step 
 4. Start the application:
 
    npm start
+
+#Some Screenshots
+![](images/Screenshot 2023-08-20 203758.png)
    
 # Usage 
 
