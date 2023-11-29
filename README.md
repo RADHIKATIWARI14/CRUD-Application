@@ -19,7 +19,7 @@ Guide users on how to install and set up your application. Include step-by-step 
    npm start
 
 # Some Screenshots
-![](images/Screenshot%202023-08-20%20203758.png)
+![images](images/Screenshot%202023-08-2020203758.png)
    
 # Usage 
 
