@@ -6,7 +6,7 @@ CRUD is based on Create, Read, Update, Delete Application
 Guide users on how to install and set up your application. Include step-by-step instructions for different operating systems or environments. This can include:
 1. Clone the repository:
    
-   git clone https://github.com/yourusername/your-repo.git
+   git clone RADHIKATIWARI14/CRUD-Application
 2. Install dependencies:
 
    cd your-repo 
